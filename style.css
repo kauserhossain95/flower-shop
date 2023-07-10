@@ -1,15 +1,20 @@
+/* common css */
 body{
     margin: 0 ;
     padding: 0;
 }
-.common-button{
+.common-btn{
     background-color: rgb(151, 50, 146);
     color: white;
     padding: 10px 25px;
     font-weight: bold;
     border-radius: 4px;
     border: none;
+    text-transform: capitalize;
+    display: inline-block;
 }
+
+/* Banner area css start from here */
 .header-area{
     background-color: rgb(240, 195, 240);
     
@@ -25,8 +30,6 @@ body{
     justify-content: space-between;
     gap: 20px;
 
-   
-  
 }
 .banner-left{
     width: 40%;
@@ -40,4 +43,12 @@ body{
 .banner-left p{
     font-size: 14px;
     color: #575555;
+}
+/* banner area end here */
+
+/* Hot deal area css start from here */
+
+.hot-deal-text{
+    width: 50%;
+    text-align: center;
 }
