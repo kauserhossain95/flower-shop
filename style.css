@@ -1,0 +1,43 @@
+body{
+    margin: 0 ;
+    padding: 0;
+}
+.common-button{
+    background-color: rgb(151, 50, 146);
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+.header-area{
+    background-color: rgb(240, 195, 240);
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+   
+  
+}
+.banner-left{
+    width: 40%;
+    padding: 20px;
+}
+.banner-left h1{
+    
+    font-size: 40px;
+    columns: rgb(54, 48, 48);
+}
+.banner-left p{
+    font-size: 14px;
+    color: #575555;
+}
