@@ -67,9 +67,40 @@ line-height: 23px;
    
 }
 /* banner area end here */
-/* deal area */
+
+/* instragram area css */
+.instra-area{
+    margin-top: 80px;
+}
+.instra-content{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.instra-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.instragram-boxes{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    
+}
+.instragram-boxes .box{
+    width: 23%;
+    
+
+}
+.instragram-boxes .box img{
+    width: 99.5%;
+}
+
+
+
+/* deal area css */
 .deal-area{
-    margin: 80px 0;
+    margin-bottom: 80px;
 }
 .deal-content{
     background-image: url("./img/Rectangle\ 9.png");
