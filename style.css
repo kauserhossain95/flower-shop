@@ -2,9 +2,10 @@
 body{
     margin: 0 ;
     padding: 0;
+    font-family: sans-serif;
 }
 .common-btn{
-    background-color: rgb(151, 50, 146);
+    background-color: #e55473;
     color: white;
     padding: 10px 25px;
     font-weight: bold;
@@ -13,10 +14,15 @@ body{
     text-transform: capitalize;
     display: inline-block;
 }
+p{
+color: #a08f8f;
+font-size: 12px;
+line-height: 23px;
+}
 
 /* Banner area css start from here */
 .header-area{
-    background-color: rgb(240, 195, 240);
+    background-color:#fceef1;
     
 }
 .container{
@@ -25,30 +31,61 @@ body{
 }
 .banner{
     display: flex;
-    height: 80vh;
+    height: 100vh;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    padding: 40px 0;
 
 }
 .banner-left{
-    width: 40%;
-    padding: 20px;
+    width: 50%;
+    
+    
 }
 .banner-left h1{
     
-    font-size: 40px;
-    columns: rgb(54, 48, 48);
+    font-size: 55px;
+    color: #272727;
+    
 }
 .banner-left p{
-    font-size: 14px;
-    color: #575555;
+    font-size: 12px;
+    
+    margin-bottom: 30px;
+}
+.banner-right{
+    width: 50%;
+   
+}
+.banner-right .img-area{
+    width:450px;
+    
+}
+.banner-right .img-area img{
+    width: 80%;
+   
 }
 /* banner area end here */
-
-/* Hot deal area css start from here */
-
-.hot-deal-text{
-    width: 50%;
-    text-align: center;
+footer{
+    background-color: #272727;
 }
+.footer-area{
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-area h4{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2px;
+
+}
+.footer-area h4 span{
+    color: #e55473;
+}
+
