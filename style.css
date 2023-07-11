@@ -67,6 +67,36 @@ line-height: 23px;
    
 }
 /* banner area end here */
+/* deal area */
+.deal-area{
+    margin: 80px 0;
+}
+.deal-content{
+    background-image: url("./img/Rectangle\ 9.png");
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+
+}
+.deal-content h2{
+font-size: 30px;
+margin-bottom: 2px;
+}
+input{
+    font-size: 12px;
+    padding: 12px;
+    width: 42%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+/* footer area */
 footer{
     background-color: #272727;
 }
