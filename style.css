@@ -68,6 +68,34 @@ line-height: 23px;
 }
 /* banner area end here */
 
+/* hot deal css */
+.hot-deal-area{
+    height: 60vh;
+    background-color: #fef6f8;
+}
+.hot-deal-content{
+    display: flex;
+}
+.hot-deal-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.hot-deal-text h2{
+    font-size: 30px;
+}
+.hot-deal-text span{
+    color: #e55473;
+}
+.hot-deal-img{
+    width: 50%;
+}
+.hot-deal-img img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 /* instragram area css */
 .instra-area{
     margin-top: 80px;
