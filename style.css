@@ -67,6 +67,33 @@ line-height: 23px;
    
 }
 /* banner area end here */
+/* delibary area css */
+.del-content{
+    background-color: #f4f4f4;
+}
+.del-content{
+    margin: 80px 0;
+    padding: 40px 0;
+}
+.delibari-boxes{
+    display: flex;
+}
+.del-box{
+    width: 33%;
+    text-align: center;
+}
+.del-box img{
+    width: 17%;
+}
+.del-box p{
+    font-size: 16px;
+}
+
+
+
+
+
+
 
 /* hot deal css */
 .hot-deal-area{
