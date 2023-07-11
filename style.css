@@ -88,6 +88,52 @@ line-height: 23px;
 .del-box p{
     font-size: 16px;
 }
+/* feature area css */
+.feature-content{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.feature-content h2{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.feature-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-box1{
+background-color: #f2dee7;
+width: 32%;
+text-align: center;
+border-radius: 50% 50% 0 0;
+padding-top: 70px;
+}
+.feature-box1 img{
+    width: 70%;
+}
+.feature-box2{
+    background-color: #d9eff1;
+    width: 32%;
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    padding-top: 70px;
+    }
+.feature-box2 img{
+     width: 75%;
+}
+.feature-box3{
+    background-color: #d9eff1;
+    width: 32%;
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    padding-top: 70px;
+    }
+.feature-box3 img{
+     width: 70%;
+}
 
 
 
@@ -97,8 +143,9 @@ line-height: 23px;
 
 /* hot deal css */
 .hot-deal-area{
-    height: 60vh;
+    height: 70vh;
     background-color: #fef6f8;
+    padding-top: 70px;
 }
 .hot-deal-content{
     display: flex;
